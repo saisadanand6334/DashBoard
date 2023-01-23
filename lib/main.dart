@@ -8,7 +8,7 @@ class Dashboard extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return MaterialApp(debugShowCheckedModeBanner: false,
       home: Scaffold(backgroundColor: Colors.lightBlue,
       appBar: AppBar( title: Center(
         child: Text("Dashboard",
